@@ -1,0 +1,19 @@
+{
+  "name": "cypress-example",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "start-test-server": "npx http-server ./examples -p 3001",
+    "test": "./start.sh",
+    "open": "start-test-server & cypress open"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/plugin-syntax-import-attributes": "^7.22.5",
+    "cypress": "^13.1.0",
+    "http-server": "^14.1.1",
+    "wait-on": "^7.0.1"
+  }
+}

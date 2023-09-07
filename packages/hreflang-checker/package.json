@@ -1,0 +1,33 @@
+{
+  "name": "hreflang-checker",
+  "version": "1.0.0",
+  "description": "Check your hreflang tags are correct in your existing end to end or integration suite",
+  "type": "module",
+  "main": "index.js",
+  "module": "index.js",
+  "scripts": {
+    "test": "node --test --test-reporter spec test/*"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12"
+  },
+  "engines": {
+    "node": ">=19.0.0"
+  },
+  "homepage": "https://github.com/bmpickford/hreflang-checker#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bmpickford/hreflang-checker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bmpickford/hreflang-checker/issues"
+  },
+  "keywords": [
+    "hreflang",
+    "seo",
+    "jest",
+    "mocha"
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "name": "hreflang-checker",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Check hreflang tags on a website",
+  "workspaces": [
+    "packages/*"
+  ],
+  "author": "Benjamin Pickford <b.mpickford@outlook.com>",
+  "homepage": "https://github.com/bmpickford/hreflang-checker#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bmpickford/hreflang-checker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bmpickford/hreflang-checker/issues"
+  },
+  "keywords": [
+    "hreflang",
+    "seo",
+    "playwright",
+    "cypress"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "test": "npm run test --workspaces --if-present"
+  }
+}

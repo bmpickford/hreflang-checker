@@ -1,0 +1,17 @@
+{
+  "name": "playwright-hreflang-checker-example",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start-test-server": "npx http-server ./examples -p 3001",
+    "test": "playwright test"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@playwright/test": "^1.37.1",
+    "http-server": "^14.1.1"
+  }
+}

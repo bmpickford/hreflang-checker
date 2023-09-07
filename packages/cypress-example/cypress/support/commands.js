@@ -1,0 +1,1 @@
+import '@hreflang-checker/cypress'

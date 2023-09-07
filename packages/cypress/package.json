@@ -1,0 +1,26 @@
+{
+  "name": "@hreflang-checker/cypress",
+  "version": "1.0.0",
+  "description": "Check your hreflang implementation using cypress",
+  "main": "index.js",
+  "module": "index.js",
+  "type": "module",
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "^13.1.0"
+  },
+  "homepage": "https://github.com/bmpickford/hreflang-checker#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bmpickford/hreflang-checker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bmpickford/hreflang-checker/issues"
+  },
+  "keywords": [
+    "hreflang",
+    "seo",
+    "cypress"
+  ]
+}

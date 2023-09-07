@@ -1,0 +1,26 @@
+{
+  "name": "@hreflang-checker/playwright",
+  "version": "1.0.0",
+  "description": "Check your hreflang implementation using playwright",
+  "main": "index.js",
+  "module": "index.js",
+  "type": "module",
+  "license": "MIT",
+  "devDependencies": {
+    "@playwright/test": "^1.37.1"
+  },
+  "author": "Benjamin Pickford <b.mpickford@outlook.com>",
+  "homepage": "https://github.com/bmpickford/hreflang-checker#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bmpickford/hreflang-checker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bmpickford/hreflang-checker/issues"
+  },
+  "keywords": [
+    "hreflang",
+    "seo",
+    "playwright"
+  ]
+}
