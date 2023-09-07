@@ -22,5 +22,6 @@
     "hreflang",
     "seo",
     "cypress"
-  ]
+  ],
+  "types": "./index.d.ts"
 }

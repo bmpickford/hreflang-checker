@@ -22,5 +22,6 @@
     "hreflang",
     "seo",
     "playwright"
-  ]
+  ],
+  "types": "./index.d.ts"
 }
