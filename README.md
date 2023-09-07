@@ -1,11 +1,12 @@
 # hreflang-checker
 
 Easily check your HTML hreflangs are valid in your end to end or integration suite. This package validates
-[/] Language codes are valid
-[/] All alternate pages have a 200 response
-[/] Hreflangs are biderectional
-[/] Hreflangs are self referencial
-[/] An x-default tag is present
+
+[x] Language codes are valid
+[x] All alternate pages have a 200 response
+[x] Hreflangs are biderectional
+[x] Hreflangs are self referencial
+[x] An x-default tag is present
 
 For more information on hreflangs, see https://developers.google.com/search/docs/specialty/international/localized-versions#all-method-guidelines
 
