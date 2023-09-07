@@ -1,1 +1,1 @@
-import '@hreflang-checker/cypress'
+import "@hreflang-checker/cypress";

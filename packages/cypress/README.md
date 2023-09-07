@@ -1,8 +1,6 @@
-
 # hreflang-checker (WIP)
 
 Easily check your hreflangs are valid using Cypress
-
 
 ## Installation
 
@@ -12,8 +10,9 @@ npm install @hreflang-checker/cypress
 
 ```ts
 // cypress/support/commands.js
-import '@hreflang-checker/cypress';
+import "@hreflang-checker/cypress";
 ```
+
 ## Usage/Examples
 
 ```typescript

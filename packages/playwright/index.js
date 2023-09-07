@@ -1,12 +1,15 @@
-import { expect } from '@playwright/test';
-import { validateIsoCode, validateHreflang } from 'hreflang-checker';
+import { expect } from "@playwright/test";
+import { validateIsoCode, validateHreflang } from "hreflang-checker";
 
 expect.extend({
   toBeAValidHreflangCode(code) {
     if (validateIsoCode(code)) {
       return { pass: true, message: () => `ISO code ${code} is valid` };
     }
-    return { pass: false, message: () => `${code} is not a valid code for hreflangs` };
+    return {
+      pass: false,
+      message: () => `${code} is not a valid code for hreflangs`,
+    };
   },
   async toHaveValidHreflangs(page) {
     const url = await page.url();
@@ -17,4 +20,4 @@ expect.extend({
       return { pass: false, message: () => error.message };
     }
   },
-})
+});

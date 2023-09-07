@@ -6,6 +6,11 @@
   "workspaces": [
     "packages/*"
   ],
+  "scripts": {
+    "test": "npm run test --workspaces --if-present",
+    "lint": "eslint .",
+    "prettier": "prettier ."
+  },
   "author": "Benjamin Pickford <b.mpickford@outlook.com>",
   "homepage": "https://github.com/bmpickford/hreflang-checker#readme",
   "repository": {
@@ -22,7 +27,8 @@
     "cypress"
   ],
   "license": "MIT",
-  "scripts": {
-    "test": "npm run test --workspaces --if-present"
+  "devDependencies": {
+    "eslint": "^8.48.0",
+    "prettier": "3.0.3"
   }
 }

@@ -1,6 +1,6 @@
-import { validateHreflang } from 'hreflang-checker';
-console.log('importing')
+import { validateHreflang } from "hreflang-checker";
+import { Cypress } from "cypress";
 
-Cypress.Commands.add('validateHreflang', (url) => {
-  return validateHreflang(url)
-})
+Cypress.Commands.add("validateHreflang", (url) => {
+  return validateHreflang(url);
+});

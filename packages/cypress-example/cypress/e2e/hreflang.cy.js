@@ -1,3 +1,5 @@
+import { it, cy } from "cypress";
+
 const VALID_URLS = [
   "http://localhost:3001/valid/en.html",
   "http://localhost:3001/valid/de.html",
@@ -8,6 +10,6 @@ const VALID_URLS = [
 for (const url of VALID_URLS) {
   it(`should pass for url ${url}`, async () => {
     cy.visit(url);
-    cy.url().then(url => cy.validateHreflang(url))
+    cy.url().then((url) => cy.validateHreflang(url));
   });
 }

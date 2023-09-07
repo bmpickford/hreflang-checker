@@ -12,9 +12,9 @@ For more information on hreflangs, see https://developers.google.com/search/docs
 
 ## Libraries
 
-|Testing library|Link|
-|--|--|
-|Jest|[link](./packages/hreflang-checker/README.md)|
-|Mocha|[link](./packages/hreflang-checker/README.md)|
-|Playwright|[link](./packages/playwright/README.md)|
-|Cypress (WIP)|[link](./packages/cypress/README.md)|
+| Testing library | Link                                          |
+| --------------- | --------------------------------------------- |
+| Jest            | [link](./packages/hreflang-checker/README.md) |
+| Mocha           | [link](./packages/hreflang-checker/README.md) |
+| Playwright      | [link](./packages/playwright/README.md)       |
+| Cypress (WIP)   | [link](./packages/cypress/README.md)          |

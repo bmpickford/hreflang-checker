@@ -14,22 +14,22 @@ for (const url of VALID_URLS) {
   });
 }
 
-test('no reciprocal', async ({ page }) => {
-  await page.goto('http://localhost:3001/invalid/no-reciprocal.html');
+test("no reciprocal", async ({ page }) => {
+  await page.goto("http://localhost:3001/invalid/no-reciprocal.html");
   await expect(page).not.toHaveValidHreflangs();
-})
+});
 
-test('invalid code', async ({ page }) => {
-  await page.goto('http://localhost:3001/invalid/invalid-code.html');
+test("invalid code", async ({ page }) => {
+  await page.goto("http://localhost:3001/invalid/invalid-code.html");
   await expect(page).not.toHaveValidHreflangs();
-})
+});
 
-test('no x default', async ({ page }) => {
-  await page.goto('http://localhost:3001/invalid/no-x-default.html');
+test("no x default", async ({ page }) => {
+  await page.goto("http://localhost:3001/invalid/no-x-default.html");
   await expect(page).not.toHaveValidHreflangs();
-})
+});
 
-test('no self reference', async ({ page }) => {
-  await page.goto('http://localhost:3001/invalid/no-self-reference.html');
+test("no self reference", async ({ page }) => {
+  await page.goto("http://localhost:3001/invalid/no-self-reference.html");
   await expect(page).not.toHaveValidHreflangs();
-})
+});

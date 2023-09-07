@@ -8,6 +8,6 @@ declare namespace Cypress {
      * cy.validateHreflang()
      * cy.validateHreflang('http://localhost:3001/valid/en.html')
      */
-    validateHreflang(url?: string): Chainable<any>
+    validateHreflang(url?: string): Chainable<any>;
   }
 }
